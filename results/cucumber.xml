@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="77.659">
+    <testcase classname="Validate Enrol Insurance Product feature" name="User can enroll for Insurance Product for Short Term Disability" time="74.685">
+        <system-out>
+            <![CDATA[Given user in Insure Welcome Page...........................................passed
+When user Clicks "Get Started" button.......................................passed
+Then user landed to "Applicant Type" page...................................passed
+When user Selects "Employee" radio button...................................passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "Product" page..........................................passed
+When user Selects "Short Term Disability" check box.........................passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "Name" page.............................................passed
+When user enter "First Name" in input box...................................passed
+When user enter "Last Name" in input box....................................passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "Email" page............................................passed
+When user enter "Email" in input box........................................passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "Salary" page...........................................passed
+When user enter "Salary" in input box.......................................passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "Date of Birth" page....................................passed
+When user enter "Date of Birth" in input box................................passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "Gender" page...........................................passed
+When user Selects "Male" radio button.......................................passed
+Then user landed to "Phone" page............................................passed
+When user enter "Phone Number" in input box.................................passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "Address" page..........................................passed
+When user enter "Address" in input box......................................passed
+When user enter "Apt" in input box..........................................passed
+When user Selects "Agreement1" check box....................................passed
+When user Selects "Agreement2" check box....................................passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "State of Birth" page...................................passed
+When user Selects from drop down "stateOfBirth" value "Alabama".............passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "License" page..........................................passed
+When user Selects "No" radio button.........................................passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "Height & Weight" page..................................passed
+When user Selects from drop down "height" value "4'10"......................passed
+When user enter "Weight" in input box.......................................passed
+And user Clicks "Next" button...............................................passed
+Then user landed to "In the past 10 years" page.............................passed
+When user Selects "None of the above" check box.............................passed
+And user Clicks "Next" button...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

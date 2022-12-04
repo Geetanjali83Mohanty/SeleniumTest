@@ -1,6 +1,6 @@
-Feature: Validate Insurance Product feature
+Feature: Validate Enrol Insurance Product feature
 
-  Scenario: User can enroll for Insurance Product
+  Scenario: User can enroll for Insurance Product for Short Term Disability
     Given user in Insure Welcome Page
     When user Clicks "Get Started" button
     Then user landed to "Applicant Type" page
